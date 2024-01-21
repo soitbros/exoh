@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap');
+
+html {
+    margin: 0 auto;
+}
+
+body {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.win {
+    align-items: center;
+    font-family: 'Sarabun', sans-serif;
+    justify-content: center;
+    border: solid 5px;
+    padding: 30px;
+    width: 35vw;
+    background-color:lightgrey;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    width: 98vw;
+}
+
+.board {
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+}
+
+.pieces {
+    display: flex;
+    flex-direction: row;
+}
+
+.square, .piece {
+    height: 150px;
+    width: 150px;
+    display: inline;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    border: solid 3px;
+    background-color: antiquewhite;
+}
+
+#oh {
+    font-size: 110px;
+}
+
+.upper {
+    border-top: none;
+}
+
+.left {
+    border-left: none;
+}
+
+.right {
+    border-right: none;
+}
+
+.lower {
+    border-bottom: none;
+}
+
+.drag-over {
+    background-color:cornsilk;
+}

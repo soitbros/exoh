@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X O</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <dialog class="win">
+            <h1 class="winner"></h1>
+            <h4 class="reset">❌ Play Again? ⭕</h4>
+        </dialog>
+
+        <div class="board">
+            <div class="square left upper" id="1"></div>
+            <div class="square upper" id="2"></div>
+            <div class="square right upper" id="3"></div>
+            <div class="square left" id="4"></div>
+            <div class="square" id="5"></div>
+            <div class="square right" id="6"></div>
+            <div class="square left lower" id="7"></div>
+            <div class="square lower" id="8"></div>
+            <div class="square right lower" id="9"></div>
+        </div>
+
+        <div class="pieces" id="pieces">
+            <div class="piece" id="ex" draggable="true">❌</div>
+            <div class="piece" id="oh" draggable="true">⭕</div>
+        </div>
+    </div>
+    <script src="xogame.js"></script>
+</body>
+</html>
